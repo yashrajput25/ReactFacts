@@ -1,0 +1,58 @@
+body{
+    margin:0;
+    background-color: #282d35;
+    background-image: url("./assets/gray_logo.webp" );
+    background-repeat: no-repeat;
+    background-position-x: 145%;
+    background-position-y: 85% ;
+
+}
+.Header{
+    background-color: #21222A;
+    height: 45px;
+    padding: 30px 20px;
+}
+.navbar{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.reactFacts{
+    color: #61DAFB;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.4rem; 
+}
+
+.nav-logo{
+    width: 75px;
+    margin-right: 5px;
+}
+
+.mainContent{
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 60px;
+    padding-left: 30px;
+}
+
+.heading{
+    margin: 0px;
+    font-size: 2.4rem;
+}
+
+.facts-list{
+    margin-top: 46px;
+    max-width: 400px;
+}
+
+.facts-list>li{
+    padding-block: 10px;
+    line-height: 19px;
+}
+
+.facts-list>li::marker{
+    color: #61DAFB;
+    font-size: 1.5rem;
+}
